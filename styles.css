@@ -69,11 +69,52 @@
   max-height: 225px;
 }
 
-.random {
+.content-2 {
   display: flex;
+  flex-direction: column;
   justify-content: center;
   align-items: center;
+  padding-top: 25px;
+  padding-bottom: 50px;
+}
+
+.random {
+  display: flex;
   font-size: 36px;
   color: #1f2937;
   font-weight: 900;
+  margin-bottom: 25px;
+}
+
+.random-container {
+  display: flex;
+  gap: 35px;
+}
+
+.card {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+  max-width: 200px;
+}
+
+.random-container img {
+  max-width: 200px;
+}
+
+.random-container div {
+  text-wrap: wrap;
+}
+
+.content-3 {
+  background-color: #e5e7eb;
+  justify-content: center;
+  align-items: center;
+}
+
+.quote {
+  font-size: 36px;
+  font-style: italic;
+  color: #1f2937;
 }
