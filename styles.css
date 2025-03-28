@@ -113,6 +113,7 @@
   flex-direction: column;
   gap: 15px;
   align-items: end;
+  justify-content: center;
   background-color: #e5e7eb;
   padding: 125px 450px 75px 450px;
 }
@@ -126,4 +127,33 @@
 .quoter {
   font-weight: bold;
   font-size: 24px;
+}
+
+.content-4 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-top: 100px;
+  padding-bottom: 100px;
+}
+
+.action-container {
+  display: flex;
+  background-color: #3882f6;
+  color: white;
+  justify-content: center;
+  align-items: center;
+  gap: 150px;
+  padding: 50px 100px 50px 100px;
+  border-radius: 15px;
+}
+
+.action-container button {
+  background-color: transparent;
+  color: white;
+  padding: 5px 25px 5px 25px;
+  border: white;
+  border-width: 1px;
+  border-style: solid;
+  border-radius: 15px;
 }
