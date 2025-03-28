@@ -97,6 +97,7 @@
   justify-content: center;
   text-align: center;
   max-width: 200px;
+  gap: 10px;
 }
 
 .random-container img {
@@ -108,13 +109,21 @@
 }
 
 .content-3 {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  align-items: end;
   background-color: #e5e7eb;
-  justify-content: center;
-  align-items: center;
+  padding: 125px 450px 75px 450px;
 }
 
 .quote {
-  font-size: 36px;
+  font-size: 34px;
   font-style: italic;
   color: #1f2937;
+}
+
+.quoter {
+  font-weight: bold;
+  font-size: 24px;
 }
