@@ -7,9 +7,16 @@
   border: 0;
 }
 
+body {
+  height: 100dvh;
+}
+
 .content-1 {
   background-color: #1f2937;
   padding: 25px 300px 100px 300px;
+  display: flex;
+  flex-direction: column;
+  flex: 1;
 }
 
 .header {
@@ -76,6 +83,7 @@
   align-items: center;
   padding-top: 25px;
   padding-bottom: 50px;
+  flex: 1;
 }
 
 .random {
@@ -116,6 +124,7 @@
   justify-content: center;
   background-color: #e5e7eb;
   padding: 125px 450px 75px 450px;
+  flex: 1;
 }
 
 .quote {
@@ -135,6 +144,7 @@
   align-items: center;
   padding-top: 100px;
   padding-bottom: 100px;
+  flex: 1;
 }
 
 .action-container {
